@@ -33,6 +33,7 @@ public class Login {
 			mainPage.clickOnLogin();
 			mainPage.waitForPageLoaded();
 			assertTrue(driver.getCurrentUrl().equalsIgnoreCase(urlLoggedIn));
+			//comment 1
 		} catch (Exception ex) {
 			assertTrue(false);
 		}
